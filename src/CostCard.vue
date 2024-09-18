@@ -68,7 +68,7 @@ const USDollar = new Intl.NumberFormat("en-US", {
       </li>
       <li>
         <p class="total">
-          {{ $route.name }} Total: {{ USDollar.format(total) }}
+          {{ $route.name }} Total: {{ USDollar.format(total) }}/yr
         </p>
       </li>
     </ul>
@@ -76,23 +76,33 @@ const USDollar = new Intl.NumberFormat("en-US", {
 </template>
 <style scoped>
 li {
-  width: 100%;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
   gap: 1rem;
-  text-align: center;
 }
 ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  max-width: fit-content;
 }
-
+p {
+  text-align: start;
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
 .total {
   place-self: start;
   font-weight: bold;
+}
+div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 </style>

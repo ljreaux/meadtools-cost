@@ -32,7 +32,7 @@ const USDollar = new Intl.NumberFormat("en-US", {
   </nav>
   <main>
     <RouterView />
-    <p>Overall Total: {{ USDollar.format(total) }}</p>
+    <p>Overall Total: {{ USDollar.format(total) }}/yr</p>
   </main>
 </template>
 
