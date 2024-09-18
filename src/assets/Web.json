@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Domain Protection",
+    "cost": 32.99,
+    "period": "yr"
+  },
+  {
+    "name": "Email Domain",
+    "cost": 9.62,
+    "period": "mo"
+  },
+  {
+    "name": "Domain",
+    "cost": 21.99,
+    "period": "yr"
+  },
+  {
+    "name": "i18nexus",
+    "cost": 14,
+    "period": "mo"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Google Play Developer Membership",
+    "cost": 25,
+    "period": "once"
+  },
+  {
+    "name": "Apple Developer Membership",
+    "cost": 99,
+    "period": "yr"
+  }
+]
